@@ -1,0 +1,16 @@
+{
+  "name": "04-hotel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "dead-server --host=localhost --port=1015 -q"
+  },
+  "keywords": [],
+  "author": "Vytautas Valutis (http://github.com/VytautasValutis)",
+  "license": "ISC",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
