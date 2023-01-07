@@ -48,13 +48,14 @@
 }
 .c-last-sec-vert {
     width: 240px;
+    height: 420px;
     margin-top: 20px;
     margin-left: 10px;
     display: inline-block;
     float: left;
     text-align: center;
-    border: 2px solid green;
+    border: 2px dotted green;
 }
-.main-block:last-of-type > .c-last-sec-vert:first-of-type {
-    margin-left: 30;
+.main-block:last-of-type > .c-last-sec-vert:nth-of-type(2) {
+    margin-left: 26px;
 }
