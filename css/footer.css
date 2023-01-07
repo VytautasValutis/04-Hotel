@@ -1,0 +1,13 @@
+.f-count {
+    width: 175px;
+    height: 170px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border: 2px dotted #000;
+}
+.rect:last-of-type > .f-count:first-of-type {
+    margin-left: 35px;
+}
