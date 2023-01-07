@@ -11,5 +11,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 .rect {
     width: 800px;
     border: 2px solid #000;
-    
+    margin-left: calc(50% - 400px); 
+}
+.head-back {
+    background-image: url("../img/img-background.png");
+    color: #fff;
 }
