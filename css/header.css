@@ -8,6 +8,7 @@
     text-align: center;
     margin-top: 5px;
     color: #fff;
+    display: inline-block
 }
 .h-div-img {
     display: inline-block;
@@ -59,6 +60,27 @@
     background-color: gray;
     text-decoration: underline;
     color: #fff;
+}
+.h-div-h1 {
+    font-weight: lighter;
+    margin-top: 70px;
+    display: inline-block;
+    margin-left: 80px;
+    float: left;
+    color: #bbbbbb;
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 56px;
+}
+.h-div-h2 {
+    font-weight: lighter;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 80px;
+    float: left;
+    color: #bbbbbb;
+    text-align: left;
+    font-size: 20px;
 }
 .h-div:nth-of-type(1) {
     height: 50px;
