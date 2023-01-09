@@ -1,7 +1,18 @@
 .head-back {
-    background-image: url("../img/img-background.png");
+    background-image: url("../../img/img-background.png");
     border: none;
-    height: 600px;
+    width: 800px;
+    min-height: 100vh;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu-line {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    display: block
 }
 .h-div {
     width: 100%;
@@ -11,7 +22,7 @@
     display: inline-block
 }
 .h-div-img {
-    display: inline-block;
+    display: block;
     width: 30px;
     height: 30px;
     background: none;
