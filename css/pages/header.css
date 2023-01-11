@@ -48,7 +48,6 @@
     color: #bbbbbb;
     text-transform: capitalize;
     font-size: 36px;
-    font-weight: lighter;
     letter-spacing: 4px;
 }
 .header-main-head2 {
@@ -57,7 +56,6 @@
     color: #bbbbbb;
     text-transform: capitalize;
     font-size: 18px;
-    font-weight: lighter;
 }
 .social-line {
     display: block;
