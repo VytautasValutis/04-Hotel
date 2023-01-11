@@ -4,6 +4,7 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 .menu-line {
     width: 100%;
@@ -72,14 +73,11 @@
 .h-div-menu > .link:first-of-type {
     margin-left: 0;
 }
-.h-div-menu > .link:last-of-type {
+.h-div-menu > .btn {
     margin-left: 90px;
-    border: 1px solid #fff;
-    padding: 0.2em;
-    line-height: 1.2em;
-    border-radius: 0.8em;
-    padding-left: 0.8em;
-    padding-right: 0.8em;
+    font-size: 16px;
+    border-radius: 0.7em;
+    background: none;
 }
 .h-div-menu > .link:hover {
     text-decoration: underline;

@@ -3,6 +3,8 @@
 @import '../base/layout.css';
 /* 3rd-party */
 /* components */
+@import '../component/button.css';
+/* Pages */
 @import '../pages/header.css';
 @import '../pages/central.css';
 @import '../pages/footer.css';
