@@ -1,6 +1,6 @@
 .head-back {
     background-image: url("../../img/img-background.png");
-    /* border: none; */
+    min-height: 100vh;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -41,15 +41,15 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin-top: 125px;
-    margin-left: 80px;
+    margin-top: 150px;
+    margin-left: 150px;
 }
 .header-txt {
     color: #fff;
     font-weight: lighter;
     font-size: 36px;
     line-height: 0.6em;
-    letter-spacing: 5px;
+    letter-spacing: 8px;
 }
 .header-txt:last-of-type {
     font-size: 20px;
@@ -80,24 +80,84 @@
     text-decoration: underline;
     color: #fff;
 }
-.h-div-h2 {
-    font-weight: lighter;
-    margin-top: 20px;
-    display: inline-block;
-    margin-left: 80px;
-    float: left;
-    color: #bbbbbb;
+.hero-bottom {
+    width: 1000px;
+    height: 100px;
+    color: #fff;
+    background-color: #2D455F;
+    margin-left: calc(50% - 500px);
+    margin-top: 50px;
+    border-radius: 25px;
+    box-shadow: 0px 20px 0 -5px #192940;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.hero-bottom > .date {
+    width: 25%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+}
+.hero-bottom > .date > .chunk:nth-of-type(1) {
+    width: 100%;
+    padding: 0 20px;
+    text-align: left;  
+}
+.hero-bottom > .date > .chunk:nth-of-type(2) {
+    padding: 0 20px;
     text-align: left;
+    font-size: 48px;   
+}
+.hero-bottom > .date > .chunk-sec {
+    display: block;
+    text-align: left;
+}
+.date-selector {
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    top: 40%;
+    right: 10%;
+}
+.date-selector:hover {
+    text-shadow: 0 0 30px #fff;
+}
+.hero-bottom > .person {
+    width: 12%;
+    position: relative;
+}
+.hero-bottom > .person > .chunk:nth-of-type(1){
     font-size: 20px;
 }
-.h-div:nth-of-type(1) {
-    height: 50px;
-    display: block;
+.hero-bottom > .person > .chunk:nth-of-type(2){
+    font-size: 48px;
 }
-.h-div:nth-of-type(2) {
-    height: 430px;
-    display: block;
-}.h-div:nth-of-type(3) {
-    height: 120px;
-    display: block;
+.hero-bottom > .person > .icon {
+    position: absolute;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 0.2em;
+    top: 50%;
+}
+.plus {
+    right: 10%;
+}
+.minus {
+    Left: 10%;
+}
+.hero-bottom > .person > .icon:hover {
+    text-shadow: 0 0 30px #fff;
+    border: 0.05em solid #fff;
+}
+.hero-bottom > .check {
+    background-color: #C8FA8B;
+    color: gray;
 }
