@@ -42,12 +42,14 @@
     flex-direction: column;
     gap: 20px;
     margin-top: 150px;
-    margin-left: 150px;
+    margin-left: 15%;
 }
 .header-txt {
     color: #fff;
     font-weight: lighter;
     font-size: 36px;
+    /* text-shadow: 0 0 1em #000; */
+    text-shadow: #000 1px 0 10px;
     line-height: 0.6em;
     letter-spacing: 8px;
 }
@@ -82,7 +84,7 @@
 }
 .hero-bottom {
     width: 1000px;
-    height: 100px;
+    padding: 10px;
     color: #fff;
     background-color: #2D455F;
     margin-left: calc(50% - 500px);
@@ -160,4 +162,53 @@
 .hero-bottom > .check {
     background-color: #C8FA8B;
     color: gray;
+}
+@media (max-width: 1030px) {
+    .hero-bottom {
+        width: 600px;
+        margin-left: calc(50% - 300px);
+        flex-wrap: wrap;
+    }    
+    .hero-bottom > .date {
+        width: 50%;
+        padding-bottom: 20px;
+    }
+    .hero-bottom > .person {
+        width: 33%;
+    }
+        .hero-bottom > .person > .icon {
+        padding: 0.2em;
+    }
+        .plus {
+        right: 20%;
+    }
+        .minus {
+        Left: 20%;
+    }
+}
+@media (max-width: 650px) {
+    .hero-bottom {
+        width: 320px;
+        margin-left: calc(50% - 160px);
+        flex-wrap: wrap;
+    }    
+    .hero-bottom > .date {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .hero-bottom > .person {
+        width: 50%;
+    }
+        .hero-bottom > .person > .icon {
+        padding: 0.2em;
+    }
+        .plus {
+        right: 20%;
+    }
+        .minus {
+        Left: 20%;
+    }
+    .hero-bottom > .check {
+        margin-top: 20px;
+    }
 }
