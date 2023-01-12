@@ -37,6 +37,9 @@
     border-radius: 0.6em;
     border: 0.1em solid #fff;
 }
+.round-border:hover {
+    box-shadow: 0 4px 8px lightgray;
+}
 .menu-line > .fa-bars {
     display: none;
 }
