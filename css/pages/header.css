@@ -96,6 +96,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 .hero-bottom > .date {
     width: 25%;
@@ -163,6 +164,15 @@
     background-color: #C8FA8B;
     color: gray;
 }
+.down {
+    background-color: #fff;
+    color: #2D455F;
+    position: absolute;
+    border: none;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
 @media (max-width: 1030px) {
     .hero-bottom {
         width: 600px;
@@ -184,6 +194,9 @@
     }
         .minus {
         Left: 20%;
+    }
+    .down {
+        bottom: -17px;
     }
 }
 @media (max-width: 650px) {
@@ -210,5 +223,8 @@
     }
     .hero-bottom > .check {
         margin-top: 20px;
+    }
+    .down {
+        bottom: -22px;
     }
 }
