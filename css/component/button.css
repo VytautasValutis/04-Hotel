@@ -9,5 +9,5 @@
     padding: 0.2em 0.7em;
 }
 .btn:hover {
-    box-shadow: 0 4px 8px lightgray;
+    box-shadow: 0 4px 8px #222;
 }
