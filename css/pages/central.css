@@ -10,15 +10,33 @@
     background-color: #fff;
 }
 .main-sec-block-txt {
-    width: 46%;
-    border: 2px solid blue;
+    width: 44%;
+    margin-left: 4%;
     display: block;
     margin-top: 70px;
     height: 460px;
     float: left;
+    text-align: left;
+}
+.main-sec-block-txt > h2 {
+    font-weight: lighter;
+    margin-left: 0;
+    padding: 20px;
+}
+.main-sec-block-txt > p {
+    padding: 20px;
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 30px;
+}
+.button-01 {
+    color: #000;
+    margin-left: 20px;
+    border-color: #000;
+    background-color: #EDF0F5;
 }
 .main-sec-block-txt-pic {
-    width: 46%;
+    width: 44%;
     border: 2px solid gray;
     border-top: none;
     display: block;
