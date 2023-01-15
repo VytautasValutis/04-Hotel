@@ -1,6 +1,17 @@
 .screen-block {
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 60px;
+}
+.link {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.round-border:hover {
+    box-shadow: 0 4px 8px lightgray;
+}
+.menu-line > .fa-bars {
+    display: none;
 }
 @media (max-wide: 900px) {
     .menu-line {
@@ -25,15 +36,4 @@
     .screen-block > .menu-line > .fa-bars {
         display: block;
     }
-}
-.link {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 15px;
-}
-.round-border:hover {
-    box-shadow: 0 4px 8px lightgray;
-}
-.menu-line > .fa-bars {
-    display: none;
 }
