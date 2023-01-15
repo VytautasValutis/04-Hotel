@@ -31,12 +31,6 @@
     text-decoration: none;
     margin-left: 15px;
 }
-.round-border {
-    line-height: 1em;
-    padding: 0.4em;
-    border-radius: 1em;
-    border: 0.1em solid #fff;
-}
 .round-border:hover {
     box-shadow: 0 4px 8px lightgray;
 }
