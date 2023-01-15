@@ -169,10 +169,14 @@
     color: #2D455F;
     position: absolute;
     border: none;
-    bottom: -15px;
+    bottom: 0;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateY(30%);
 }
+.down:hover {
+    box-shadow: 0 4px 8px gray;
+}
+
 @media (max-width: 1030px) {
     .hero-bottom {
         width: 600px;

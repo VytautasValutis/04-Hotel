@@ -1,13 +1,37 @@
 .btn {
-    background-color: #000;
+    /* float: left; */
+    background-color: #EA1E63;
     color: #fff;
-    border: 0.1em solid #fff;
+    border: none;
+    padding: 0.5em;
     font-size: 20px;
     line-height: 1em;
+    text-align: center;
     text-decoration: none;
-    border-radius: 0.8em;
-    padding: 0.2em 0.7em;
+    border-radius: 0.2em;
+    padding: 0.5em 0.7em;
+    cursor: pointer;
+    user-select: none;
 }
 .btn:hover {
-    box-shadow: 0 4px 8px #222;
+    box-shadow: 0 4px 8px #000;
+}
+.btn.btn-circle {
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    line-height: 2em;
+    border-radius: 50%;
+}
+.border-gray {
+    border: 2px solid gray;
+}
+.border-round{
+    border-radius: 1em;
+}
+.btn-clear {
+    background-color: transparent;
+}
+.btn-black {
+    color: #000;
 }
