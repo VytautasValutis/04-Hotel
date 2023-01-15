@@ -32,7 +32,8 @@
     width: 44%;
     border: 2px solid gray;
     border-top: none;
-    /* display: block; */
+    display: flex;
+    flex-direction: column;
     margin-right: 4%;
     margin-top: 70px;
     height: 460px;
@@ -125,12 +126,13 @@
 .main-sec-block-txt-pic > .small-txt {
     font-size: 22px;
     margin-left: 25%;
+    margin-top: 1em;
     line-height: 1.2em;
     display: block;
 } 
 .small-txt:last-of-type {
     font-size: 14px;
-    margin-top: 0;
+    margin-top: 10px;
 }
 .sec-h1 {
     width: 100%;
