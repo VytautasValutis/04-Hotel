@@ -9,6 +9,7 @@
 .menu-line {
     width: 1000px;
     margin-left: calc(50% - 500px);
+    padding-top: 15px;
     text-align: center;
     color: #fff;
     display: flex;
