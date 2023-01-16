@@ -143,6 +143,13 @@
     height: 50px;
     text-align: center;
 }
+.map {
+    border: 3px solid #fff;
+    background-image: url("../../img/map.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .c-last-sec-top {
     width: 100%;
     display: block;
