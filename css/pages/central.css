@@ -45,6 +45,7 @@
 }
 .screen-block > .main-block:nth-of-type(2n) > .main-sec-block-txt-pic {
     float: left;
+    margin: 10px;
 }
 .top-layer {
     width: 180px;
@@ -143,6 +144,14 @@
     height: 50px;
     text-align: center;
 }
+.sec-h1.advantages-pic {
+    text-align: left;
+    margin-left: 10px;
+    line-height: 1em;
+}
+.small-txt.advantages-pic {
+    margin-left: 10px;
+}
 .map {
     border: 3px solid #fff;
     background-image: url("../../img/map.png");
@@ -150,6 +159,16 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
+.screen-block > .main-block > .main-sec-block-txt-pic.advantages-pic {
+    margin-left: 40px;
+}
+.screen-block > .main-block > .main-sec-block-txt-pic.advantages-pic::after {
+    display: none;
+}
+.screen-block > .main-block > .main-sec-block-txt-pic.advantages-pic::before {
+    display: block;
+}
+
 .c-last-sec-top {
     width: 100%;
     display: block;
