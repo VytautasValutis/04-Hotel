@@ -5,7 +5,7 @@
     display: inline-block;
     background-color: #EDF0F5;
 }
-.main-block:nth-child(2n) {
+.main-block:nth-of-type(2n) {
     background-color: #fff;
 }
 .main-sec-block-txt {
@@ -42,6 +42,9 @@
     box-shadow: 0px 30px 2px -15px #ddd, 0px 60px 3px -35px #bbb;
     position: relative;
     text-align: left;
+}
+.screen-block > .main-block:nth-of-type(2n) > .main-sec-block-txt-pic {
+    float: left;
 }
 .top-layer {
     width: 180px;
@@ -139,6 +142,13 @@
     display: block;
     height: 50px;
     text-align: center;
+}
+.map {
+    border: 3px solid #fff;
+    background-image: url("../../img/map.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .c-last-sec-top {
     width: 100%;
