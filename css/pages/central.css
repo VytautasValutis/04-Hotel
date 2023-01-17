@@ -144,10 +144,17 @@
     height: 50px;
     text-align: center;
 }
+.pic-01.advantages-pic {
+    width: 95%;
+    height: 65%;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
 .sec-h1.advantages-pic {
     text-align: left;
+    margin-top: 20px;
     margin-left: 10px;
-    line-height: 1em;
+    height: 20px;
 }
 .small-txt.advantages-pic {
     margin-left: 10px;
@@ -168,7 +175,13 @@
 .screen-block > .main-block > .main-sec-block-txt-pic.advantages-pic::before {
     display: block;
 }
-
+.top-layer.advantage-pic {
+    width: 100px;
+    height: 100px;
+    border: none;
+    top: 20px;
+    left: 20px;
+}
 .c-last-sec-top {
     width: 100%;
     display: block;
